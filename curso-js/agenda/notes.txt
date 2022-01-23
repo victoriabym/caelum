@@ -1,0 +1,55 @@
+BACKEND (RESTful API)
+=====================
+protocol:// domain    :port /resource
+http://     localhost :7000 /posts
+
+
+HTTP METHODS (VERBS):
+=====================
+
+CREATE   => POST        (SALVAR)
+READ     => GET         (LER / RECUPERAR)
+UPDATE   => PUT / PATCH (ATUALIZAR)
+DELETE   => DELETE      (REMOVER)
+
+
+WORKFLOW
+========
+
+1 - VALIDAR OS CAMPOS (NOME / EMAIL)
+1.1 - CASO OS CAMPOS NÃO FOREM VALIDADOS - APRESENTAR ERROS
+1.2 - CASO OS CAMPOS SEJAM VALIDADOS - IR PARA PROX ETAPA 
+
+2 - SALVAR OS DADOS NO BACKEND 
+(POST http://localhost:7000/contacts)
+
+3 - BUSCAR OS DADOS NO BACKEND
+(GET http://localhost:7000/contacts)
+
+4 - EXIBIR OS RESULTADOS NA TABELA
+
+5 - PERMITIR A EXCLUSAO MEDIANTE CONFIRMACAO
+5.1. - CASO CONFIRMADO - DELETE NO BACKEND
+5.2. - CASO NEGATIVO - CANCELA A OPERACAO
+
+
+DOCUMENT OBJECT MODEL - DOM
+===========================
+
+        document
+       /        \
+     head       getElementsByTagName()
+     body       getElementById()
+     links      getElementsByClassName()
+     frames     querySelector()
+     forms      querySelectorAll()
+     images
+
+
+
+
+
+
+
+
+

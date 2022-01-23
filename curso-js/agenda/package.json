@@ -1,0 +1,20 @@
+{
+  "name": "agenda-master",
+  "version": "1.0.0",
+  "description": "projeto agenda curso caelum",
+  "main": "agenda.js",
+  "scripts": {
+    "front": "lite-server",
+    "back": "json-server --watch db.json --port 7000"
+  },
+  "keywords": [
+    "javascript",
+    "vanilla"
+  ],
+  "author": "Leonardo Souza",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "lite-server": "^2.6.1"
+  }
+}

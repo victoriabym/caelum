@@ -1,0 +1,24 @@
+REDUX
+biblioteca de gerenciamento de estado para aplicações JS
+pode-se utilizar com outros frameworks como angular
+fazer a centralização das informações
+ser a unica fonte de informações para os estados dos componentes
+para casos em que é necessário - aplicações com um estado (STATE) muito, muito grande mesmo - gigantescas
+
+SSOT - Single Source of Truth
+
+
+
+store = centraliza o estado e as informações mais importantes da aplicação
+
+action = objeto que representa a ação de atualização do estado (e o que muda neste estado dentro da store)
+
+reducer = função que a partir da action disparada, determina como o estado deve ser atualizado e retorna esse estado
+
+middleware = funções que ficam no meio de campo entre a ação disparada e sua efetivação no store para realização de operações assincronas que possam influenciar na maneira como o estado deve ser atualizado pela função reducer.
+
+    ex.:
+        redux thunk (usaremos no curso)
+        redux saga 
+        redux observables
+        ...

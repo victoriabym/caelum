@@ -1,0 +1,30 @@
+.NFPage__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    display: block;
+    margin: 15px 0;
+}
+
+.NFPage__btn {
+    color: white;
+    background-color: #58CEF2;
+    border-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 7px 25px;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: auto;
+}

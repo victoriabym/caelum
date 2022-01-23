@@ -1,0 +1,41 @@
+/*
+ES6 ARROW FUNCTIONS
+===================
+*/
+
+function () { ... } // funcao anonima
+
+         () => { ... } // arrow function
+
+
+function (zipcode) { ... }
+
+         (zipcode) => { ... }
+
+
+function (zipcode) { ... }
+
+         zipcode => { ... }
+
+
+function (zipcode, other) { ... }
+
+         (zipcode, other) => { ... }
+
+
+function (zipcode) { 
+  todo1();
+  todo2();
+}
+
+(zipcode) => { 
+  todo1();
+  todo2();
+}
+
+
+function (zipcode) { 
+  todo1();
+}
+
+zipcode => todo1();
